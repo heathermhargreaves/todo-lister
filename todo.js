@@ -25,6 +25,8 @@ $('document').ready(function() {
         todoList.append(itemClone);
 
         todoInput.val('');
+
+
       });
 
       todoInput.keypress(function(e){

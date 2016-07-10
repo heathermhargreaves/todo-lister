@@ -36,6 +36,7 @@
   height: 45px;
   font-size: 16px;
   color: white;
+  cursor: pointer;
 }
 
 #todoApp button, input:focus {
@@ -53,6 +54,6 @@
   border: none;
 }
 
-#todoApp button:first-child:active {
+#todoApp button:active {
   background: #2C3E50;
 }
